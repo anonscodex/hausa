@@ -225,3 +225,51 @@ export const months = [
     }
 
 ]
+
+export const time = [
+    {
+        english:"O'clock",
+        hausa:"Karfe"
+    },
+    {
+        english:"Minutes",
+        hausa:"Minti"
+    },
+    {
+        english:"To",
+        hausa:"Zuwa"
+    },
+    {
+        english:"After",
+        hausa:"Bayan"
+    },
+    {
+        english:"12 O'Clock",
+        hausa:"Karfe sha biyu"
+    },
+    {
+        english:"1 O'Clock",
+        hausa:"Karfe daya"
+    },
+    {
+        english:"30 Minutes Past 3",
+        hausa:"Da minti talatin da uku"
+    },
+    {
+        english:"Quarter to 4",
+        hausa:"Kwata zuwa hudu"
+    },
+    {
+        english:"Quarter after 5",
+        hausa:"Kwata bayan biyar"
+    },
+    {
+        english:"5 Minutes to 6",
+        hausa:"Minti biyar zuwar shida"
+    },
+    {
+        english:"10 Minutes after 7",
+        hausa:"Minti goma bayan bakwai"
+    },
+    
+]

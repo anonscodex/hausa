@@ -11,6 +11,7 @@ import Greeting from './components/pages/Greeting'
 import Numbers from './components/pages/Numbers'
 import Days from './components/pages/Days'
 import Months from './components/pages/Months'
+import Times from './components/pages/Times'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="number" element = {<Numbers />} />
               <Route path="days" element = {<Days />} />
               <Route path='months' element = {<Months />} />
+              <Route path='time' element = {<Times />} />
             </Routes>
           
         </main>
