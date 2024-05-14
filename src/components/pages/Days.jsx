@@ -29,7 +29,7 @@ const Days = () => {
                     </div>
     
                     <div className=' p-5  sm:p-5'>
-                        <Link to='/greeting'>
+                        <Link to='/months'>
                         <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700'>Proceed</button>
                         </Link>
                     </div>

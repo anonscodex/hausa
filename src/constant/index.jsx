@@ -173,3 +173,55 @@ export const numbers = [
 
 
 ]
+
+export const months = [
+    {
+        english: "Janaury",
+        hausa:"Janairu"
+    },
+    {
+        english:"February",
+        hausa: "Fabrairu"
+    },
+    {
+        english: "March",
+        hausa: "Maris"
+    },
+    {
+        english:"April",
+        hausa: "Afrilu"
+    },
+    {
+        english: "May",
+        hausa:"Mayu"
+    },
+    {
+        english: "June",
+        hausa:"Yuni"
+    },
+    {
+        english:"July",
+        hausa:"Yuli"
+    },
+    {
+        english:"August",
+        hausa:"Agusta"
+    },
+    {
+        english:"September",
+        hausa:"Satumba"
+    },
+    {
+        english:"October",
+        hausa:"Oktoba"
+    },
+    {
+        english:"November",
+        hausa:"Nuwamba"
+    },
+    {
+        english:"Disamba",
+        hausa:"Disamba"
+    }
+
+]
