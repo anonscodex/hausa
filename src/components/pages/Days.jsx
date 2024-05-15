@@ -18,10 +18,10 @@ const Days = ({setProgress, progress}) => {
                     {days.map((day, index) => (
                         <div key={index} className=" sm:flex ">
                             <div  className="text-lg  mt-1 p-1 m-1 rounded-lg ">
-                            <div  className="text-lg bg-white border border-b rounded-lg p-2">
-                                    <div   className="mx-5 text-green-900">{day.english}</div>
+                            <div  className="text-lg  text-black hover:bg-green-500 hover:text-white bg-white border border-b rounded-lg p-2">
+                                    <div   className="mx-5 ">{day.english}</div>
                                     <hr/>
-                                    <div  className="text-1xl text-black">{day.hausa}</div>
+                                    <div  className="text-1xl">{day.hausa}</div>
                             </div>
                             </div>
                         </div>

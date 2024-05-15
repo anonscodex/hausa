@@ -23,8 +23,8 @@ function Alphabet({setProgress, progress}) {
 <       h1 className="text-2xl font-semibold mt-6 px-3">Alphabet</h1>
         <div className="flex flex-wrap justify-center mt-16">
             {Alphabet.map((letter, index) => (
-                <div key={index} className="bg-white m-2 p-4 border border-gray-300 rounded-md text-center">
-                    <span className="text-3xl text-black">{letter}</span>
+                <div key={index} className="bg-white text-black hover:bg-green-500 hover:text-white m-2 p-4 border border-gray-300 rounded-md text-center ">
+                    <span className="text-3xl ">{letter}</span>
                 </div>
             ))}
 

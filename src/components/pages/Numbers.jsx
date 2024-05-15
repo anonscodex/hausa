@@ -19,10 +19,10 @@ const Numbers = ({setProgress, progress}) => {
                 {numbers.map((number, index) => (
                     <div key={index} className=" sm:flex lg:w-1/8 ">
                         <div className="text-lg  mt-1 p-1 m-1 rounded-lg ">
-                        <div className="text-lg bg-white m-3 p-3  border border-b mt-2 rounded-lg ">
-                                <div className="text-green-900 mx-5">{number.number}</div>
+                        <div className="text-lg  text-black hover:bg-green-500 hover:text-white bg-white m-3 p-3  border border-b mt-2 rounded-lg ">
+                                <div className=" mx-5">{number.number}</div>
                                 <hr/>
-                                <div className="text-1xl text-black">{number.hausa}</div>
+                                <div className="text-1xl ">{number.hausa}</div>
                         </div>
                         </div>
                     </div>
