@@ -13,6 +13,7 @@ import Days from './components/pages/Days'
 import Months from './components/pages/Months'
 import Times from './components/pages/Times'
 import Progress from './components/Progress'
+import Nouns from './components/pages/Nouns'
 
 
 
@@ -36,6 +37,7 @@ function App() {
               <Route path="days" element = {<Days setProgress={setProgress}/>} />
               <Route path='months' element = {<Months setProgress={setProgress}/>} />
               <Route path='time' element = {<Times setProgress={setProgress}/>} />
+              <Route path='nouns' element = {<Nouns setProgress={setProgress}/>} />
             </Routes>
           
         </main>
