@@ -1,7 +1,17 @@
 import { numbers } from "../../constant";
 import { Link } from "react-router-dom";
 
-const Numbers = () => {
+const Numbers = ({setProgress, progress}) => {
+
+    const handleClick = () => {
+        if (!isNaN(progress)) {
+            setProgress(progress + 5);
+        } else {
+            setProgress(10); 
+            
+        }
+    }
+
     return ( 
         <div className="p-8">
             <h1 className="text-2xl font-semibold mt-4 px-3">Numbers</h1>
@@ -30,7 +40,7 @@ const Numbers = () => {
 
                 <div className=' p-5  sm:p-5'>
                     <Link to='/days'>
-                    <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700'>Proceed</button>
+                    <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700' onClick={handleClick}>Proceed</button>
                     </Link>
                 </div>
             </div>

@@ -12,28 +12,35 @@ import Numbers from './components/pages/Numbers'
 import Days from './components/pages/Days'
 import Months from './components/pages/Months'
 import Times from './components/pages/Times'
+import Progress from './components/Progress'
+
 
 
 function App() {
   
+  const[progress, setProgress] = useState(0)
+
   return (
     <>
     <BrowserRouter>
         <main>
+
         <Header />
+        <Progress progress={progress} />
             <Routes>
-              
+            
               <Route path="/" element = {<Hero />}/ >
-              <Route path="alphabet" element = {<Alphabet />} />
-              <Route path="greeting" element = {<Greeting />} />
-              <Route path="number" element = {<Numbers />} />
-              <Route path="days" element = {<Days />} />
-              <Route path='months' element = {<Months />} />
-              <Route path='time' element = {<Times />} />
+              <Route path="alphabet" element = {<Alphabet setProgress={setProgress}/>} />
+              <Route path="greeting" element = {<Greeting setProgress={setProgress}/>} />
+              <Route path="number" element = {<Numbers setProgress={setProgress}/>} />
+              <Route path="days" element = {<Days setProgress={setProgress}/>} />
+              <Route path='months' element = {<Months setProgress={setProgress}/>} />
+              <Route path='time' element = {<Times setProgress={setProgress}/>} />
             </Routes>
           
         </main>
       </BrowserRouter>
+      
     </>
   )
 }

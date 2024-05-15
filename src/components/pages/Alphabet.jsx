@@ -1,7 +1,17 @@
 
 import { Link } from "react-router-dom";
 
-function Alphabet() {
+
+function Alphabet({setProgress, progress}) {
+    const handleClick = () => {
+        if (!isNaN(progress)) {
+            setProgress(progress + 5);
+        } else {
+            setProgress(5); 
+            
+        }
+    }
+
     const Alphabet = [
         'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
         'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
@@ -30,7 +40,7 @@ function Alphabet() {
 
         <div className=' p-5  sm:p-5'>
             <Link to='/number'>
-            <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700'>Proceed</button>
+            <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700' onClick={handleClick}>Proceed</button>
             </Link>
         </div>
         </div>
