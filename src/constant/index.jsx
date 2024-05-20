@@ -675,3 +675,253 @@ export const verbs = [
     }
 
 ]
+
+export const expression = [
+    {
+        english:"I need to buy groceries today.",
+        hausa:"Ina bukatan siyan kayan abinci a yau."
+    },
+    {
+        english:"Can you help me with this task?",
+        hausa:"Za ku iya taimaka mini da wannan aikin?"
+    },
+    {
+        english:"I forgot to water the plants.",
+        hausa:"Na manta ban shayar da tsire-tsire."
+    },
+    {
+        english:"Let's go for a walk after dinner.",
+        hausa:"Mu tafi yawo bayan cin abinci."
+    },
+    {
+        english:"I have a meeting at 10 AM.",
+        hausa:"Ina taro da karfe 10 na safe."
+    },
+    {
+        english:"Please send me the document.",
+        hausa:"Dan Allah a aiko mani da takardar"
+    },
+    {
+        english:"Did you finish your homework?",
+        hausa:"Kin gama aikin gida?"
+    },
+    {
+        english:"The weather is nice today.",
+        hausa:"Yanayin yana da kyau a yau."
+    },
+    {
+        english:"I need to call my mom.",
+        hausa:"Ina bukata in kira mahaifiyata."
+    },
+    {
+        english:"Can you pass the salt?",
+        hausa:"Za a iya wuce gishiri?"
+    },
+    {
+        english:" I will be back in a minute.",
+        hausa:"Zan dawo nan da minti daya"
+    },
+    {
+        english:"Do you want some coffee?",
+        hausa:"Kuna son kofi?"
+    },
+    {
+        english:"I am running late for work.",
+        hausa:"Ina gudun aiki a makare."
+    },
+    {
+        english:"Please turn off the lights.",
+        hausa:"Da fatan za a kashe fitilu."
+    },
+    {
+        english:"I have to clean the house.",
+        hausa:"Dole in share gida."
+    },
+    {
+        english:"The mail just arrived.",
+        hausa:"Wasiku ya iso."
+    },
+    {
+        english:"What is for lunch?",
+        hausa:"Menene abincin rana?"
+    },
+    {
+        english:"I need to charge my phone.",
+        hausa:"Ina bukatan cajin wayata."
+    },
+    {
+        english:" Let us watch a movie tonight.",
+        hausa:"Mu kalli fim a daren yau."
+    },
+    {
+        english:"Can you close the window?",
+        hausa:"Za a iya rufe taga?"
+    },
+    {
+        english:"I need to take out the trash.",
+        hausa:"Ina bukatan fitar da shara."
+    },
+    {
+        english:"The cat needs to be fed.",
+        hausa:"Katsi na bukatar ciyarwa."
+    },
+    {
+        english:"Where did you put my keys?",
+        hausa:"A ina ka sa makullina?"
+    },
+    {
+        english:"I am going to the gym.",
+        hausa:"Ina zuwa dakin motsa jiki."
+    },
+    {
+        english:"Can you pick up the kids?",
+        hausa:"Za a iya daukar yara?"
+    },
+    {
+        english:"Let us go to the park.",
+        hausa:"Mu je wurin shakatawa."
+    },
+    {
+        english:" I need to finish this report.",
+        hausa:"Ina bukata in gama wannan rahoton."
+    },
+    {
+        english:"The dog needs a walk.",
+        hausa:"Kare yana bukatar yawo."
+    },
+    {
+        english:"Can you help me carry this?",
+        hausa:"Za ku iya taimaka mini ɗaukar wannan?"
+    },
+    {
+        english:"I have to make a phone call.",
+        hausa:"Dole in yi waya"
+    },
+    {
+        english:"What time is the appointment?",
+        hausa:"Wane lokaci ne wa'adi?"
+    },{
+        english:"The printer is out of ink.",
+        hausa:"Na'urar bugawa ba ta da tawada."
+    },
+    {
+        english:"I need to buy a new laptop.",
+        hausa:"Ina bukata in sayi sabuwar kwamfutar tafi-da-gidanka."
+    },
+    {
+        english:"Let's have dinner together.",
+        hausa:"Mu ci abinci tare."
+    },
+    {
+        english:"I forgot my password.",
+        hausa:"Na manta kalmar sirri ta."
+    },
+    {
+        english:"Can you send me the address?",
+        hausa:"Za a iya aiko mani da adireshin?"
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+    {
+        english:"",
+        hausa:""
+    },
+]

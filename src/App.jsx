@@ -14,6 +14,7 @@ import Months from './components/pages/Months'
 import Times from './components/pages/Times'
 import Progress from './components/Progress'
 import Nouns from './components/pages/Nouns'
+import Verbs from './components/pages/Verbs'
 
 
 
@@ -38,6 +39,7 @@ function App() {
               <Route path='months' element = {<Months setProgress={setProgress}/>} />
               <Route path='time' element = {<Times setProgress={setProgress}/>} />
               <Route path='nouns' element = {<Nouns setProgress={setProgress}/>} />
+              <Route path='verbs' element = {<Verbs setProgress={setProgress} />} />
             </Routes>
           
         </main>
