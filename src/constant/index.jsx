@@ -4,6 +4,22 @@ export const greeting = [
         meaning: 'Hello',
     },
     {
+        hausa : 'Ina Kwana',
+        meaning: 'Good Morning',
+    },
+    {
+        hausa : 'Ina Wuni',
+        meaning: 'Good Afternoon',
+    },
+    {
+        hausa : 'Ina Wuni',
+        meaning: 'Good Evening',
+    },
+    {
+        hausa : 'Sannu da zuwa',
+        meaning: 'Welcome',
+    },
+    {
         hausa : 'Yaya kake?' ,
         meaning: "How're you?",
     },
@@ -18,7 +34,20 @@ export const greeting = [
     {
         hausa : 'Sannu da zuwa',
         meaning: 'Welcome',
-    }
+    },
+    {
+        hausa : 'sannunku da zuwa',
+        meaning: 'You are Welcome',
+    },
+    {
+        hausa : 'Yaya iyali',
+        meaning: 'How is family',
+    },
+    {
+        hausa : 'Yaya daren ku?',
+        meaning: 'How was your night?',
+    },
+
 ]
 
 export const days = [
