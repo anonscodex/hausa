@@ -14,7 +14,7 @@ const Verbs = ({progress, setProgress}) => {
     
         return (
             <div className="p-8">
-            <h1 className="text-2xl font-semibold mt-4 px-3">Nouns</h1>
+            <h1 className="text-2xl font-semibold mt-4 px-3">Verbs</h1>
             <div className=" ml-1 w-full flex flex-wrap justify-center">
                 {verbs.map((verb, index) => (
                     <div key={index} className=" sm:flex lg:w-1/8 ">
@@ -39,7 +39,7 @@ const Verbs = ({progress, setProgress}) => {
                 </div>
     
                 <div className=' p-5  sm:p-5'>
-                    <Link to='/'>
+                    <Link to='/greeting'>
                     <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700' onClick={handleClick}>Proceed</button>
                     </Link>
                 </div>

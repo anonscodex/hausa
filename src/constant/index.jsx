@@ -821,107 +821,223 @@ export const expression = [
         hausa:"Za a iya aiko mani da adireshin?"
     },
     {
-        english:"",
-        hausa:""
+        english:"The package has been delivered.",
+        hausa:"An kawo fakitin."
     },
     {
-        english:"",
-        hausa:""
+        english:"I need to buy some clothes.",
+        hausa:"Ina bukata siyan tufafi."
     },
     {
-        english:"",
-        hausa:""
+        english:"Let's plan a trip this weekend.",
+        hausa:"Mu shirya tafiya a karshen mako."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you pick up some milk?",
+        hausa:"Za a iya ɗibar madara?"
     },
     {
-        english:"",
-        hausa:""
+        english:" I have to reply to these emails.",
+        hausa:"Dole ne in amsa wadannan imel."
     },
     {
-        english:"",
-        hausa:""
+        english:"The dishwasher is broken.",
+        hausa:"Mai wanki ya karye."
     },
     {
-        english:"",
-        hausa:""
+        english:"I need to get my car serviced.",
+        hausa:"Ina bukatan a yi wa mota hidima."
     },
     {
-        english:"",
-        hausa:""
+        english:"Let's go shopping.",
+        hausa:"Mu je siyayya."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you help me with the dishes?",
+        hausa:"Za a iya taimaka mini da abinci?"
     },
     {
-        english:"",
-        hausa:""
+        english:"I need to finish this project.",
+        hausa:"Ina bukata in gama wannan aikin."
     },
     {
-        english:"",
-        hausa:""
+        english:"What time does the movie start?",
+        hausa:"Wane lokaci ne fim ɗin zai fara?"
     },
     {
-        english:"",
-        hausa:""
+        english:"The internet is not working.",
+        hausa:"Intanet ba ya aiki."
     },
     {
-        english:"",
-        hausa:""
+        english:"I have to go to the bank.",
+        hausa:"Dole in je banki."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you fix this for me?",
+        hausa:"Za ka iya gyara min wannan?"
     },
     {
-        english:"",
-        hausa:""
+        english:"I'm going to bed early tonight.",
+        hausa:"Zan kwanta da wuri a daren nan."
     },
     {
-        english:"",
-        hausa:""
+        english:"Let's have a barbecue this weekend.",
+        hausa:"Bari mu yi barbecue a karshen mako."
     },
     {
-        english:"",
-        hausa:""
+        english:"I need to update my software.",
+        hausa:"Ina bukata sabunta software na."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you check the oven?",
+        hausa:"Za a iya duba tanda?"
     },
     {
-        english:"",
-        hausa:""
+        english:"The laundry needs to be done.",
+        hausa:"Ana bukata wanki."
     },
     {
-        english:"",
-        hausa:""
+        english:" I have to renew my license",
+        hausa:"Dole ne in sabunta lasisi."
     },
     {
-        english:"",
-        hausa:""
+        english:"Let's go out for breakfast.",
+        hausa:"Mu fita karin kumallo."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you find this on the map?",
+        hausa:"Kuna iya samun wannan akan taswira?"
     },
     {
-        english:"",
-        hausa:""
+        english:"I need to visit the doctor",
+        hausa:"Ina bukata in ziyarci likita."
     },
     {
-        english:"",
-        hausa:""
+        english:"The kids have a playdate today.",
+        hausa:"Yara yau suna da ranar wasa."
     },
     {
-        english:"",
-        hausa:""
+        english:" I have a dentist appointment.",
+        hausa:"Ina da alƙawarin likitan hakori."
     },
     {
-        english:"",
-        hausa:""
+        english:"Can you book a table for dinner?",
+        hausa:"Za ku iya yin ajiyar tebur don abincin dare?"
     },
+    {
+        english:"Let's go for a drive.",
+        hausa:"Mu tafi tuki"
+    },
+    {
+        english:"Can you help me move this?",
+        hausa:"Za ku iya taimaka mini in motsa wannan?"
+    },
+    {
+        english:"The fridge is empty.",
+        hausa:"Firinji babu kowa."
+    },
+    {
+        english:"I need to buy medicine.",
+        hausa:"Ina bukata in saya magani."
+    },
+    {
+        english:"Let's go for a bike ride.",
+        hausa:"Mu tafi hawan keke."
+    },
+    {
+        english:"Can you take care of the children?",
+        hausa:"Za ku iya kula da yara?"
+    },
+    {
+        english:"I have to organize a meeting.",
+        hausa:"Dole in shirya taro."
+    },
+    {
+        english:"A garden needs grass.",
+        hausa:"Lambu na bukatar ciyawa."
+    },
+    {
+        english:"I need to change the light bulb.",
+        hausa:"Ina bukata in canza kwan fitila"
+    },
+    {
+        english:"Let's play at night.",
+        hausa:"Mu yi wasan dare."
+    },
+    {
+        english:"I have to write an essay.",
+        hausa:"Dole in rubuta makala."
+    },
+    {
+        english:"The microwave does not work.",
+        hausa:"Microwave ba ya aiki."
+    },
+    {
+        english:"I need to buy a birthday present.",
+        hausa:"Ina bukata in saya kyautar ranar haihuwa."
+    },
+    {
+        english:"Let's go to the zoo.",
+        hausa:"Mu je gidan namun daji."
+    },
+    {
+        english:"Can you check the oil in the car?",
+        hausa:" Za a iya duba man da ke cikin mota?"
+    },
+    {
+        english:"I have to finish this painting.",
+        hausa:"Dole in gama wannan zane."
+    },
+    {
+        english:"The glass needs cleaning.",
+        hausa:"Gilashin yana buƙatar tsaftacewa"
+    },
+    {
+        english:"I need to bake a cake.",
+        hausa:"Ina bukata in gasa biredi"
+    },
+    {
+        english:"Let's visit the museum.",
+        hausa:"Mu ziyarci gidan kayan gargajiya."
+    },
+    {
+        english:"Can you help me with the laundry?",
+        hausa:"Za a iya taimaka mini da wanki?"
+    },
+    {
+        english:"I have to send this package.",
+        hausa:"Dole in aika wannan kunshin."
+    },
+    {
+        english:"Water is pouring out.",
+        hausa:"Ruwa tana zubewa."
+    },
+    {
+        english:"I need to buy office supplies.",
+        hausa:"Ina buqatar siyan kayan ofis."
+    },
+    {
+        english:"Let's go for a walk this weekend.",
+        hausa:"Mu yi yawo a karshen mako"
+    },
+    {
+        english:"Can you make a reservation?",
+        hausa:"Za ku iya yin ajiyar wuri?"
+    },
+    {
+        english:"I have to prepare for an exam.",
+        hausa:"Dole in shirya jarrabawa."
+    },
+    {
+        english:"The house needs painting.",
+        hausa:"Gidan yana bukata fenti."
+    },
+    {
+        english:"I need to fix my bike.",
+        hausa:"Ina bukata in gyara babur na."
+    },
+    {
+        english:"Let's go swimming.",
+        hausa:"Mu je yin iyo."
+    }
 ]
