@@ -7,7 +7,7 @@ const Days = ({setProgress, progress}) => {
         if (!isNaN(progress)) {
             setProgress(progress + 5);
         } else {
-            setProgress(15); 
+            setProgress(30); 
             
         }
     }

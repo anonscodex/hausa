@@ -7,7 +7,7 @@ const Verbs = ({progress, setProgress}) => {
             if (!isNaN(progress)) {
                 setProgress(progress  + 1);
             } else {
-                setProgress(35); 
+                setProgress(70); 
                 
             }
         }

@@ -7,7 +7,7 @@ function Alphabet({setProgress, progress}) {
         if (!isNaN(progress)) {
             setProgress(progress + 5);
         } else {
-            setProgress(5); 
+            setProgress(10); 
             
         }
     }

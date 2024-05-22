@@ -7,7 +7,7 @@ const Months = ({setProgress, progress}) => {
         if (!isNaN(progress)) {
             setProgress(progress  + 1);
         } else {
-            setProgress(20); 
+            setProgress(40); 
             
         }
     }

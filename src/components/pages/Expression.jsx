@@ -8,7 +8,7 @@ const Expressoion = ({setProgress, progress}) => {
         if (!isNaN(progress)) {
             setProgress(progress  + 1);
         } else {
-            setProgress(45); 
+            setProgress(90); 
             
         }
     }
@@ -41,7 +41,7 @@ const Expressoion = ({setProgress, progress}) => {
             </div>
 
             <div className=' p-5  sm:p-5'>
-                <Link to='/'>
+                <Link to='/quiz'>
                 <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700' onClick={handleClick}>Proceed</button>
                 </Link>
             </div>

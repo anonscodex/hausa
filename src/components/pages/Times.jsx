@@ -7,7 +7,7 @@ const Times = ({setProgress, progress}) => {
         if (!isNaN(progress)) {
             setProgress(progress + 5);
         } else {
-            setProgress(25); 
+            setProgress(50); 
             
         }
     }

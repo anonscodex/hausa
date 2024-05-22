@@ -7,7 +7,7 @@ const Greeting = ({setProgress, progress}) => {
         if (!isNaN(progress)) {
             setProgress(progress + 5);
         } else {
-            setProgress(40); 
+            setProgress(80); 
             
         }
     }

@@ -7,7 +7,7 @@ const Nouns = ({setProgress, progress}) => {
             if (!isNaN(progress)) {
                 setProgress(progress  + 1);
             } else {
-                setProgress(30); 
+                setProgress(60); 
                 
             }
         }
