@@ -23,7 +23,7 @@ const handleClick = () => {
       >
         Celebrate!
       </button>
-      {useConfetti && <Confetti width="1300px" height="990px" />}
+      {useConfetti && <Confetti width="1300px" />}
     </div>
         </>
      );

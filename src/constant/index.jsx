@@ -1070,3 +1070,33 @@ export const expression = [
         hausa:"Mu je yin iyo."
     }
 ]
+
+export const quiz = {
+    topic: 'Hausa Practice',
+  level: 'Beginner',
+  totalQuestions: 20,
+  perQuestionScore: 5,
+
+  questions: [
+    {
+        question: 'What is 6 in hausa?',
+      choices: ['Daya', 'Goma', 'Shida', 'Tara'],
+      type: 'MCQs',
+      correctAnswer: 'Shida',
+    },
+    {
+        question: 'What is 10 in hausa?',
+      choices: ['Daya', 'Goma', 'Shida', 'Tara'],
+      type: 'MCQs',
+      correctAnswer: 'Goma',
+    },
+    {
+        question: 'What is 73 in hausa?',
+      choices: ["tamain da daya", "Saba'in da uku", "ashirin da tara", "Talatin da hudu"],
+      type: 'MCQs',
+      correctAnswer:" 'Saba'in da uku'",
+    },
+  ]
+}
+
+
