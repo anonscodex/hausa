@@ -43,6 +43,14 @@ const Quiz = ({ progress, setProgress }) => {
     setSelectedAnswers(false);
   };
 
+  const handleClick = () => {
+    if (!isNaN(progress)) {
+      setProgress(progress + 1);
+    } else {
+      setProgress(0);
+    }
+  }
+
   const onSelectedAnswer = (item, index) => {
     setSelectedAnswerIndex(index);
     if (item === correctAnswer) {
@@ -110,7 +118,15 @@ const Quiz = ({ progress, setProgress }) => {
           <p className="choice-item cursor-pointer p-2 mb-2 rounded-md bg-green-100 text-green-900 hover:bg-green-500 hover:text-white">
             Wrong Answers:<span> {result.wrongAnswers}</span>
           </p>
+
+          <div className=' p-5  sm:p-5'>
+                        <Link to='/'>
+                        <button className='bg-green-500 border py-2 px-5 rounded-md focus:outline-none focus:shadow-outline hover:bg-neutral-700' onClick={handleClick}>Start Over</button>
+                        </Link>
+                    </div>
         </div>
+
+        
       )}
 
       {useConfetti && <Confetti width="1300px" height="990px" />}
