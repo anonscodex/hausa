@@ -38,7 +38,7 @@ const Quiz = ({ progress, setProgress }) => {
       setProgress(100);
     }
 
-    // Reset selected answer for next question
+  
     setSelectedAnswerIndex(null);
     setSelectedAnswers(false);
   };
@@ -53,19 +53,26 @@ const Quiz = ({ progress, setProgress }) => {
   };
 
   const { questions } = quiz;
-  const { question, choices, correctAnswer } = questions[activeQuestions];
+  const { question, choices, correctAnswer, type } = questions[activeQuestions];
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
   return (
     <>
       {!showResult ? (
-        <div className="question-container p-4 border rounded-lg shadow-lg bg-white mt-10">
-          <div className="question-progress float-left mt-1 text-gray-600">
+        <div className=" question-container p-4 border rounded-lg shadow-lg bg-white mt-10">
+          <div className=" question-progress float-left mt-1 text-gray-600">
+            <div>
             <span className="font-bold">{addLeadingZero(activeQuestions + 1)}</span>
             <span>/{addLeadingZero(questions.length)}</span>
           </div>
+          <div>
+            <span>{type}</span>
+          </div>
+          </div>
+            
+          
           <br />
-          <h1 className="text-center text-xl text-black mr-10">Quiz</h1>
+          <h1 className="text-center text-xl text-black mr-12">Quiz</h1>
           <h2 className="text-2xl font-bold mb-4 text-black">{question}</h2>
           <ul className="choices-list list-none p-0 text-xl text-black">
             {choices.map((item, index) => (
@@ -73,7 +80,7 @@ const Quiz = ({ progress, setProgress }) => {
                 onClick={() => onSelectedAnswer(item, index)}
                 key={item}
                 className={`choice-item cursor-pointer p-2 mb-2 rounded-md ${
-                  selectedAnswerIndex === index ? 'bg-green-100 text-green-900' : 'bg-gray-100 text-gray-700'
+                  selectedAnswerIndex === index ? 'bg-green-900 text-white' : 'bg-gray-100 text-gray-700'
                 } hover:bg-green-500 hover:text-white`}
               >
                 {item}

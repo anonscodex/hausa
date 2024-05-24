@@ -1081,21 +1081,125 @@ export const quiz = {
     {
         question: 'What is 6 in hausa?',
       choices: ['Daya', 'Goma', 'Shida', 'Tara'],
-      type: 'MCQs',
+      type: 'Number',
       correctAnswer: 'Shida',
     },
     {
         question: 'What is 10 in hausa?',
       choices: ['Daya', 'Goma', 'Shida', 'Tara'],
-      type: 'MCQs',
+      type: 'Number',
       correctAnswer: 'Goma',
     },
     {
         question: 'What is 73 in hausa?',
       choices: ["tamain da daya", "Saba'in da uku", "ashirin da tara", "Talatin da hudu"],
-      type: 'MCQs',
+      type: 'Number',
       correctAnswer:" 'Saba'in da uku'",
     },
+    {
+        question: 'What is Wednesday in hausa',
+      choices: ["Talata", "Laraba", "Asabar", "Lahadi"],
+      type: 'Day',
+      correctAnswer:"Laraba",
+    },
+    {
+        question: 'What is Sunday in hausa',
+      choices: ["Asabar", "Lahadi", "Talata", "Laraba"],
+      type: 'Day',
+      correctAnswer:"Lahadi",
+    },
+    {
+        question: 'What is March in hausa',
+      choices: ["Afril", "Maris", "Marchi", "Mayu"],
+      type: 'Month',
+      correctAnswer:"Maris",
+    },
+    {
+        question: "What is 12 O'Clock in hausa",
+      choices: ["Karfe sha biyar", "Karfe sha uku", "Karfe sha biyu", "Karfe sha shida"],
+      type: 'Time',
+      correctAnswer:"Karfe sha biyu",
+    },
+    {
+        question: "What is 20 minutes after 7 in hausa",
+      choices: ["Minti daya bayan bakwai", "Minti goma bayan bakwai", "Minti ashirin bayan bakwai", "Minti biyar bayan bakwai"],
+      type: 'Time',
+      correctAnswer:"Minti ashirin bayan bakwai",
+    },
+    {
+        question: "What is School in hausa",
+      choices: ["Iyali", "Takalmi", "Likita", "Makaranta"],
+      type: 'Noun',
+      correctAnswer:"Makaranta",
+    },
+    {
+        question: "What is Food in hausa",
+      choices: ["Jaka", "Takalmi", "Abinci", "Soso"],
+      type: 'Noun',
+      correctAnswer:"Abinci",
+    },
+    {
+        question: "What is Chair in hausa",
+      choices: ["Kofin", "Kujera", "Buga", "Titin"],
+      type: 'Noun',
+      correctAnswer:"Kujera",
+    },
+    {
+        question: "What is Drive in hausa",
+      choices: ["Waka", "Kira", "Tuba", "Saurara"],
+      type: 'Verb',
+      correctAnswer:"Tuba",
+    },
+    {
+        question: "What is Play in hausa",
+      choices: ["Goga", "Dariya", "Huta", "Wasa"],
+      type: 'Verb',
+      correctAnswer:"Wasa",
+    },
+    {
+        question: "What is Good Morning in hausa",
+      choices: ["Ina kwana", "Ina Wuni", "Ina zuwa", "Ina gobe"],
+      type: 'Greeting',
+      correctAnswer:"Ina Kwana",
+    },
+    {
+        question: "What is Good Evening in hausa",
+      choices: ["Ina zuwa", "Ina Gobe", "Ina Kwana", "Ina Wuni"],
+      type: 'Greeting',
+      correctAnswer:"Ina Wuni",
+    },
+    {
+        question: "What is Do you want some bread? in hausa",
+      choices: ["Kuna son Magani?", "Kuna son tufafi?", "Kuna son Burodi?", "Kuna son shara?"],
+      type: 'Expression',
+      correctAnswer:"Kuna son Burodi?",
+    },
+    {
+        question: "What is Please send me the money in hausa",
+      choices: ["Dan Allah a aiko mani da takardar", "Dan Allah a aiko mani da Cokali", "Dan Allah a aiko mani da Kudi", "Dan Allah a aiko mani da Alkalami"],
+      type: 'Expression',
+      correctAnswer:"Dan Allah a aiko mani da kudi",
+    },
+    {
+        question: "What is Let us go to the park in hausa",
+      choices: ["Mu je wurin siyayya..", "Mu je wurin motsa jiki.", "Mu je wurin makaranta.", "Mu je wurin shakatawa."],
+      type: 'Expression',
+      correctAnswer:"Mu je wurin shakatawa.",
+    },
+    {
+        question: "What is The internet is not working. in hausa",
+      choices: ["Intanet ba ya yakare", "Intanet ba ya aiki", "Intanet ba ya siyaya", "Intanet ba ya A a"],
+      type: 'Expression',
+      correctAnswer:"Intanet ba ya aiki",
+    },
+    {
+        question: "What is Where did you put my phone in hausa",
+      choices: ["A ina ka sa wayata?", "Katsi na bukatar ciyarwa.", "A ina ka sa shara?", "A ina ka sa Alkalami?"],
+      type: 'Expression',
+      correctAnswer:"A ina ka sa wayata?",
+    },
+    
+    
   ]
 }
 
