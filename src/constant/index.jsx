@@ -498,11 +498,11 @@ export const nouns = [
     },
     {
         english:"Fish",
-        hausa:""
+        hausa:"kifi"
     },
     {
         english:"Chicken",
-        hausa:""
+        hausa:"Kaza"
     },
 
     
