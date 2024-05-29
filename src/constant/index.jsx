@@ -465,43 +465,43 @@ export const nouns = [
         hausa:"Soso"
     },
     {
-        english:"",
+        english:"Wanke",
+        hausa:"Beans"
+    },
+    {
+        english:"Oil",
+        hausa:"Mai"
+    },
+    {
+        english:"Groundnut",
+        hausa:"Gyada"
+    },
+    {
+        english:"Powdered Pepper",
+        hausa:"Yaji"
+    },
+    {
+        english:"Meat",
+        hausa:"Nama"
+    },
+    {
+        english:"Rice",
+        hausa:"Shinkafa"
+    },
+    {
+        english:"Potato",
+        hausa:"Dankali"
+    },
+    {
+        english:"Flour",
+        hausa:"Gari"
+    },
+    {
+        english:"Fish",
         hausa:""
     },
     {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
-        hausa:""
-    },
-    {
-        english:"",
+        english:"Chicken",
         hausa:""
     },
 
