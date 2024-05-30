@@ -1073,7 +1073,6 @@ export const expression = [
 
 export const quiz = {
     topic: 'Hausa Practice',
-  level: 'Beginner',
   totalQuestions: 20,
   perQuestionScore: 5,
 
